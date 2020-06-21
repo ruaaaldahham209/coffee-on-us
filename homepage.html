@@ -7,27 +7,33 @@
 
     <!-- 👇هنا style قم بإضافة وسم   -->
     <!-- في منتصف الصفحة h1 لجعل العناوين داخل وسوم style قم باستعمال وسم   -->
+    <style>
+h1 {color: aqua;
+  text-align: center;
+}
+    </style>
   </head>
-
   <!-- css داخل مجلد styles.css قم بإنشاء ملف جديد وقم بتسميته  -->
   <!-- styles.css وقم بإضافة التعديلات المطلوبة القادمة داخل ملف -->
 
   <!-- grey لتغيير لون خلفية الصفحة إلى body قم بإضافة التنسيق المناسب لوسم -->
   <!-- لتغيير اللون hex يمكنك استخدام صيغة -->
   <body>
+
     <h1>☕️ قهوتك علينا</h1>
     <h1>Your coffee is on us</h1>
 
     <!-- ليصبحا بمحاذاة من اليمين إلي اليسار h3و p قم بإضافة التنسيق المناسب لوسمي -->
-    <h3>ماذا نعني بالقهوة؟</h3>
-    <p>
+    <h3 class="fff">ماذا نعني بالقهوة؟</h3>
+    <p class="fff">
       القهوة مشروب يعد من بذور البن المحمصة، وينمو في أكثر من ٧٠ بلداً خصوصاً في
       المناطق الاستوائية في أمريكا الشمالية والجنوبية وجنوب شرق آسيا وشبه القارة
       الهندية وأفريقيا. ونظراً لاحتوائها على الكافيين، يمكن أن يكون للقهوة تأثير
       منبه للبشر
+    
     </p>
     <!-- margin قم بالفصل بين الفقرتين باللغة العربية والإنجليزية باستخدام خواص -->
-    <h3>What does the word Coffee mean?</h3>
+    <h3 class="aaa">What does the word Coffee mean?</h3>
     <p>
       Coffee is a brewed drink prepared from roasted coffee beans, the seeds of
       berries from certain Coffea species. The genus Coffea is native to
@@ -53,15 +59,16 @@
     <!-- في الأسفل border="1" قم بإزالة -->
 
     <!-- padding قم بالتعدييل على مكان الجدول في الصفحة باستخدام خواص -->
-    <table border="1">
+    <table >
       <tr>
-        <th>Starbucks</th>
-        <th>Costa</th>
-        <th>Caribou</th>
+        <th class="ruaa">Starbucks</th>
+        <th class="rrr">Costa</th>
+        <th class="yyy">Caribou</th>
       </tr>
       <tr>
         <!-- Coffeeshop 1 -->
-        <td>
+
+        <td class="greenb">
           <a href="./assets/images/Starbucks.jpg" target="_blank">
             <img
               src="./assets/images/Starbucks.jpg"
@@ -73,7 +80,7 @@
           </a>
         </td>
         <!-- Coffeeshop 2 -->
-        <td>
+        <td class="redb">
           <a href="./assets/images/Costa.png" target="_blank">
             <img
               src="./assets/images/Costa.png"
@@ -85,7 +92,7 @@
           </a>
         </td>
         <!-- Coffeeshop 3 -->
-        <td>
+        <td class="blueb">
           <a href="cs1.html">
             <img
               src="./assets/images/Caribou.png"
@@ -101,7 +108,7 @@
 
     <!-- قم بجعل صور المتاجر في الأسفل مع أسماء المتاجر مرتبة في سطر واحد -->
     <!-- Linked Images -->
-    <a href="./assets/images/Starbucks.jpg" target="_blank">
+    <a  class=display href="./assets/images/Starbucks.jpg" target="_blank">
       <!-- Image URL -->
       <img
         src="./assets/images/Starbucks.jpg"
@@ -109,27 +116,27 @@
         height="100px"
         width="170px"
       />
-      <p><strong>Starbucks Coffee</strong></p>
+      <p class=display > <strong>Starbucks Coffee</strong></p>
     </a>
 
-    <a href="./assets/images/Costa.png" target="_blank">
+    <a  class=display href="./assets/images/Costa.png" target="_blank">
       <img
         src="./assets/images/Costa.png"
         alt="costa"
         height="100px"
         width="100px"
       />
-      <p><strong>Costa Coffee</strong></p>
+      <p class=display ><strong>Costa Coffee</strong></p>
     </a>
 
-    <a href="./assets/images/Caribou.png" target="_blank">
+    <a class=display href="./assets/images/Caribou.png" target="_blank">
       <img
         src="./assets/images/Caribou.png"
         alt="caribou"
         height="100px"
         width="100px"
       />
-      <p><strong>Caribou Coffee</strong></p>
+      <p class=display ><strong>Caribou Coffee</strong></p>
     </a>
   </body>
 
@@ -142,21 +149,21 @@
     <hr />
     <!-- Social Icons -->
     <!-- Thumbnails -->
-    <a href="https://twitter.com/joincoded" target="_blank">
+    <a class=display href="https://twitter.com/joincoded" target="_blank">
       <img
         src="./assets/images/t-Thumbnail.jpg"
         alt="twitter"
         height="100px"
         width="100px"
-      />
+        class=display />
     </a>
-    <a href="https://www.instagram.com/joincoded/" target="_blank">
+    <a class=display href="https://www.instagram.com/joincoded/" target="_blank">
       <img
         src="./assets/images/i-Thumbnail.png"
         alt="instagram"
         height="120px"
         width="150px"
-      />
+        class=display />
     </a>
   </footer>
 </html>

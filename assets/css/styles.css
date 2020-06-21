@@ -1,3 +1,35 @@
+
+body{ background-color: grey;}
+
+.fff{text-align: right;}
+
+
+.aaa{margin-top: 100px;}
+
+.yyy {color: blue;}
+.ruaa { color: green;}
+.rrr{color:red ;}
+
+.greenb{ background-color: green;}
+.redb{ background-color: red;}
+.blueb{ background-color: blue;}
+
+table,th,td {border: 10px solid palevioletred;
+
+  border-collapse: collapse;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
+
+.display{
+
+display: inline;
+}
+
+
+
+
+
 /* td {
   background-color: orange;
 } */
